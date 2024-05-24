@@ -5,5 +5,5 @@ CREATE USER 'deploymentuser'@'%' IDENTIFIED BY 'P@ssw0rd';
 
 -- following code to be run through the terminal via SSH or direct input
 
-GRANT SELECT, CREATE, UPDATE, DELETE ON database.table TO 'webappuser'@'%';
-GRANT ALL ON database.table TO 'deploymentuser'@'%';
+GRANT SELECT, CREATE, UPDATE, DELETE ON database.* TO 'webappuser'@'%';
+GRANT ALL ON database.* TO 'deploymentuser'@'%';
