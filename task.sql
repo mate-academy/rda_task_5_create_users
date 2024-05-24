@@ -5,5 +5,5 @@ CREATE USER 'deploymentuser'@'%' IDENTIFIED BY 'P@ssw0rd';
 
 -- following code to be run through the terminal via SSH or direct input
 
-GRANT SELECT, CREATE, UPDATE, DELETE ON ShopDB.* TO 'webappuser'@'%';
+GRANT SELECT, INSERT, UPDATE, DELETE ON ShopDB.* TO 'webappuser'@'%';
 GRANT ALL ON ShopDB.* TO 'deploymentuser'@'%';
