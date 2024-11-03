@@ -12,4 +12,3 @@ INSERT INTO Countries (ID,Name)
 	VALUES (1, 'Country1');
 INSERT INTO Countries (ID,Name)
 	VALUES (2, 'Country2');
-    
